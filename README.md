@@ -33,12 +33,12 @@ sqlite3 → Database to store emails.
 
 Run this command (replace with your actual file path):
 
-   ```bash
-   export GOOGLE_CREDENTIALS_PATH="/Users/yourusername/Documents/credentials.json"```
+```export GOOGLE_CREDENTIALS_PATH="/Users/yourusername/Documents/credentials.json"```
+
 
 Verify variable is set:
 
-echo $GOOGLE_CREDENTIALS_PATH
+```echo $GOOGLE_CREDENTIALS_PATH```
 
 
 
