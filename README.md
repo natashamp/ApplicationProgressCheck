@@ -10,7 +10,7 @@ Inital steps to use Python with Gmail API to fetch emails
 Python 3 installed (`python --version` to check)
 
 - install packages
-```pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+```pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client```
 
 google-auth → Handles authentication with Google services.
 google-auth-oauthlib → Manages OAuth flow.
