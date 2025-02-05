@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stored Emails</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid black; padding: 10px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Stored Emails</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Sender</th>
+            <th>Subject</th>
+            <th>Body</th>
+        </tr>
+        {% for email in emails %}
+        <tr>
+            <td>{{ email[0] }}</td>
+            <td>{{ email[1] }}</td>
+            <td>{{ email[2] }}</td>
+            <td>{{ email[3][:200] }}...</td> <!-- Show first 200 chars -->
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+
