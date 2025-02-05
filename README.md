@@ -61,3 +61,19 @@ Verify variable is set:
 - fetches last 20 gmails from inbox and filters
 
 
+4) Run Flask Frontend
+
+```pip install flask```
+
+
+
+Run Flask app
+
+```python3 app.py```
+
+
+
+Expected output:
+
+http://127.0.0.1:5000/
+
