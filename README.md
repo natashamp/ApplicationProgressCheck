@@ -34,7 +34,7 @@ sqlite3 → Database to store emails.
 Run this command (replace with your actual file path):
 
    ```bash
-   export GOOGLE_CREDENTIALS_PATH="/Users/yourusername/Documents/credentials.json"
+   export GOOGLE_CREDENTIALS_PATH="/Users/yourusername/Documents/credentials.json"```
 
 Verify variable is set:
 
@@ -44,19 +44,19 @@ echo $GOOGLE_CREDENTIALS_PATH
 
 3) Run this script to authenticate gmail
 
-```python3 authenticate_gmail.py
+```python3 authenticate_gmail.py```
 
 - generated token.pickle
 
 
 
-```python3 create_db.py
+```python3 create_db.py```
 
 - creates sqlite3 database emails.db in folder
 
 
 
-```python3 fetch_keywords_emails.py
+```python3 fetch_keywords_emails.py```
 
 - fetches last 20 gmails from inbox and filters
 
